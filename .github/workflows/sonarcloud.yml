@@ -30,5 +30,6 @@ jobs:
             -Dsonar.projectKey=Shyamanand08_WebGoat
             -Dsonar.organization=shyamanand08
             -Dsonar.sources=.
+            -Dsonar.java.binaries=target/classes
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
